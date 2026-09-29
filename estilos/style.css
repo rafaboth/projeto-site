@@ -1,16 +1,59 @@
 * {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
     font-size: 16px;
 }
 
 body {
-    background-color: rgb(21, 108, 195);
+    background-color: rgb(22, 88, 155);
 
+}
+
+img.centro {
+    display: block;
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto 10px auto;
+}
+
+img.lado {
+    float: right;
+    width: 250px;
+    margin: 15px 0 10px 10px;
+}
+
+
+p {
+    text-align: justify;
+}
+
+article {
+    display: flow-root;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+}
+
+sup, sup a {
+    font-size: 11px;
+}
+
+footer {
+    border-top: 1px solid rgb(200, 200, 200);
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 13px;
+    color: rgb(100, 100, 100);
 }
 
 main {
     background-color: white;
-    width: 500px;
+    width: 800px;
+    max-width: 100%;
+    box-sizing: border-box;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgb(148, 145, 145);
