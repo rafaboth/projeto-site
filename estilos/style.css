@@ -10,14 +10,15 @@ body {
 
 img.centro {
     display: block;
-    width: 800px;
+    width: 600px;
     max-width: 100%;
     margin: 0 auto 10px auto;
 }
 
 img.lado {
     float: right;
-    width: 250px;
+    width: 200px;
+    max-width: 40%;
     margin: 15px 0 10px 10px;
 }
 
